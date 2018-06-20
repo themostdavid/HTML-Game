@@ -47,7 +47,7 @@ function updatePieceColor()
 
 function updateGameArea()
 {
-	gameArea.clear();
+	//gameArea.clear();
 	gamePiece.deccelerate();
 	if(gameArea.keys && gameArea.keys[37]) {gamePiece.speedX -= 1;}
 	if(gameArea.keys && gameArea.keys[39]) {gamePiece.speedX += 1;}
