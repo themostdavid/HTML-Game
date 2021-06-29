@@ -142,7 +142,7 @@ function updateGameArea()
 	//if(gameArea.keys && gameArea.keys[40]) {gamePiece.speedY = 5;}
 	gamePiece.update();
 	gamePiece.newPos();
-	//updatePieceColor();
+	updatePieceColor();
 	
 	updatePlayerInfo();
 }
